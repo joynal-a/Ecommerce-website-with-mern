@@ -6,7 +6,6 @@ const DataSchema = mongoose.Schema({
     BrandImg:{type:String, trim:true, required:true}
 },{timestamps:true,versionKey:false});
 
-
 const BrandModel =  mongoose.model('brands', DataSchema);
 
 module.exports = BrandModel;
